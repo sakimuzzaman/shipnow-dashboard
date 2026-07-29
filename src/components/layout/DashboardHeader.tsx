@@ -2,14 +2,14 @@ import { Plus, Search } from "lucide-react";
 
 export default function DashboardHeader() {
   return (
-    <header className="flex h-[64px] w-full items-center justify-between gap-6 border-b border-[#ECECEF] bg-[#FEFEFE] px-6">
+    <header className="flex h-[64px] w-full items-center justify-between gap-6 border-b border-[#ECECEF] bg-[#F7F7F8] px-6">
       {/* Greeting */}
       <div className="shrink-0">
         <p className="text-[9px] leading-[11px] text-[#8A8D94]">
           Hello John!
         </p>
 
-        <h1 className="mt-[2px] text-[16px] font-semibold leading-[21px] text-[#34363A]">
+        <h1 className="mt-[2px] text-[16px] font-semibold leading-[21px] text-[#333333]">
           Good Morning
         </h1>
       </div>
@@ -34,7 +34,7 @@ export default function DashboardHeader() {
               rounded-[6px]
               border
               border-[#ECECEF]
-              bg-[#F7F7F8]
+              bg-[#FEFEFE]
               py-2
               pl-9
               pr-3
