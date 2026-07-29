@@ -87,7 +87,7 @@
         </div>
   
         {/* Push secondary menu toward the bottom */}
-        <div className="mt-auto flex flex-col gap-[8px]">
+        <div className=" flex flex-col gap-[8px]">
           {secondaryMenu.map((item) => (
             <SidebarNavItem
               key={item.label}
