@@ -1,6 +1,6 @@
 import { Plus, Search } from "lucide-react";
 
-export default function Header() {
+export default function DashboardHeader() {
   return (
     <header className="flex h-[64px] w-full items-center justify-between gap-6 border-b border-[#ECECEF] bg-[#FEFEFE] px-6">
       {/* Greeting */}
