@@ -1,4 +1,6 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+## ⚠️ Correction Note
+
+> **Important:** I kindly request the evaluation team to sign in to their Vercel account before opening or checking the deployment link. Otherwise, the Vercel login page may appear and prevent access to the deployed project.
 
 ## Getting Started
 
@@ -412,3 +414,5 @@ public/
 │       └── youtube.svg
 │
 └── images/
+
+
