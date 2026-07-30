@@ -1,3 +1,4 @@
+import DashboardFooter from "@/components/dashboard/DashboardFooter";
 import DashboardHeader from "@/components/layout/DashboardHeader";
 import DashboardSidebar from "@/components/layout/DashboardSidebar";
 
@@ -17,6 +18,12 @@ export default function DashboardLayout({
         <main className="min-w-0 flex-1">
           {children}
         </main>
+
+        <div
+      className="px-[16px] pb-[12px]"
+    >
+      <DashboardFooter />
+    </div>
 
         </div>
       </div>
