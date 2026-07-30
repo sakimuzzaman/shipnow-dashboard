@@ -71,3 +71,19 @@ export interface SummaryCardData {
     date: string;
     icon: "document" | "location" | "message";
   }
+
+  export type ShipmentStatus =
+  | "In Transit"
+  | "Out for Delivery"
+  | "Delivered"
+  | "Processing";
+
+export interface RecentShipment {
+  id: string;
+  company: string;
+  category: string;
+  carrier: string;
+  route: string;
+  shippingDate: string;
+  status: ShipmentStatus;
+}

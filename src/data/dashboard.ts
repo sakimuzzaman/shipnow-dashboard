@@ -7,6 +7,7 @@ import type {
     SummaryCardData,
     ShipmentAlert,
     ShipmentAlertSummary,
+    RecentShipment
   } from "@/types/dashboard";
 
 export const summaryCards: SummaryCardData[] = [
@@ -263,3 +264,52 @@ export const summaryCards: SummaryCardData[] = [
       icon: "document",
     },
   ] satisfies ShipmentAlert[];
+
+
+  export const recentShipments: RecentShipment[] = [
+    {
+      id: "#SH9283746",
+      company: "TechGear Inc.",
+      category: "Electronics",
+      carrier: "FedEx",
+      route: "Los Angeles, CA → Chicago, IL",
+      shippingDate: "Mar 20, 2025",
+      status: "In Transit",
+    },
+    {
+      id: "#SH9128635",
+      company: "StyleHub Co.",
+      category: "Apparel",
+      carrier: "DHL",
+      route: "New York, NY → Atlanta, GA",
+      shippingDate: "Mar 19, 2025",
+      status: "Out for Delivery",
+    },
+    {
+      id: "#SH9037821",
+      company: "FreshNest",
+      category: "Home & Kitchen",
+      carrier: "UPS",
+      route: "Dallas, TX → Miami, FL",
+      shippingDate: "Mar 18, 2025",
+      status: "Delivered",
+    },
+    {
+      id: "#SH8947362",
+      company: "SportsGear",
+      category: "Sports & Outdoors",
+      carrier: "USPS",
+      route: "Seattle, WA → Denver, CO",
+      shippingDate: "Mar 21, 2025",
+      status: "Processing",
+    },
+    {
+      id: "#SH8457730",
+      company: "AutoParts Pro",
+      category: "Automotive",
+      carrier: "Aramex",
+      route: "Detroit, MI → San Diego, CA",
+      shippingDate: "Mar 20, 2025",
+      status: "In Transit",
+    },
+  ];

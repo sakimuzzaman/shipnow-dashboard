@@ -1,6 +1,7 @@
 import LiveTracking from "./LiveTracking";
 import ProductCategories from "./ProductCategories";
 import ProfitSummaryChart from "./ProfitSummaryChart";
+import RecentShipmentsTable from "./RecentShipmentsTable";
 import ShipmentAlerts from "./ShipmentAlerts";
 import ShipmentStatisticsChart from "./ShipmentStatisticsChart";
 import ShipmentTypeChart from "./ShipmentTypeChart";
@@ -32,6 +33,20 @@ export default function DashboardOverview() {
 
         <ShipmentAlerts />
       </div>
+
+      <div className="flex gap-[16px]">
+  <RecentShipmentsTable />
+
+  {/* Recent Activity placeholder */}
+      <div
+          className="
+            h-[404px]
+            w-[288px]
+            rounded-[12px]
+            bg-[#EDEDEF]
+          "
+      />
+     </div>
 
     </div>
   );
