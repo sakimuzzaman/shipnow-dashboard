@@ -87,3 +87,19 @@ export interface RecentShipment {
   shippingDate: string;
   status: ShipmentStatus;
 }
+
+export type ActivityIconType =
+  | "copy"
+  | "tag"
+  | "clock"
+  | "check";
+
+export interface RecentActivity {
+  id: string;
+  icon: ActivityIconType;
+  description: string;
+  highlightedText: string;
+  suffix?: string;
+  time: string;
+  showConnector: boolean;
+}

@@ -1,4 +1,5 @@
 import type {
+    RecentActivity,
     LiveTrackingData,
     ProductCategory,
     ProfitData,
@@ -311,5 +312,45 @@ export const summaryCards: SummaryCardData[] = [
       route: "Detroit, MI → San Diego, CA",
       shippingDate: "Mar 20, 2025",
       status: "In Transit",
+    },
+  ];
+
+
+  export const recentActivities: RecentActivity[] = [
+    {
+      id: "activity-1",
+      icon: "copy",
+      description: "User",
+      highlightedText: "@TechGuru99",
+      suffix: "submitted a bulk shipment request",
+      time: "12:00 PM",
+      showConnector: true,
+    },
+    {
+      id: "activity-2",
+      icon: "tag",
+      description: "Customer Support",
+      highlightedText: "@SupportKen",
+      suffix: "updated a shipment to Order ID #773024",
+      time: "11:30 AM",
+      showConnector: true,
+    },
+    {
+      id: "activity-3",
+      icon: "clock",
+      description: "User",
+      highlightedText: "@SallyMae88",
+      suffix: "initiated a return process for Order ID #44556GH",
+      time: "11:00 AM",
+      showConnector: true,
+    },
+    {
+      id: "activity-4",
+      icon: "check",
+      description: "Administrator",
+      highlightedText: "@AdminLisa",
+      suffix: "resolved a delivery issue for Order ID #1123AK",
+      time: "10:15 AM",
+      showConnector: false,
     },
   ];
