@@ -1,3 +1,4 @@
+import LiveTracking from "./LiveTracking";
 import ProductCategories from "./ProductCategories";
 import ProfitSummaryChart from "./ProfitSummaryChart";
 import ShipmentStatisticsChart from "./ShipmentStatisticsChart";
@@ -26,8 +27,7 @@ export default function DashboardOverview() {
        <div className="flex gap-[12px]">
         <ProductCategories />
 
-        {/* Live Tracking will be added next */}
-        <div className="h-[443px] flex-1 rounded-[12px] bg-[#EDEDEF]" />
+        <LiveTracking />
 
         {/* Shipment Alerts will be added after Live Tracking */}
         <div className="h-[443px] w-[299px] rounded-[12px] bg-[#EDEDEF]" />

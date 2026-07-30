@@ -1,4 +1,5 @@
 import type {
+    LiveTrackingData,
     ProductCategory,
     ProfitData,
     ShipmentStatistic,
@@ -182,3 +183,27 @@ export const summaryCards: SummaryCardData[] = [
       color: "#F0F0F0",
     },
   ];
+
+
+  export const liveTrackingData: LiveTrackingData = {
+    shipmentId: "SH8743291",
+  
+    status: "In Transit",
+  
+    courier: {
+      name: "Daniel Cooper",
+      role: "Courier",
+    },
+  
+    departure: {
+      city: "San Francisco, CA, USA",
+      dateTime: "Mar 18, 2026 - 10:30 AM",
+    },
+  
+    destination: {
+      city: "New York, NY, USA",
+      dateTime: "Mar 22, 2026 - 6:00 PM (estimated)",
+    },
+  
+    progress: 72,
+  };

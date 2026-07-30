@@ -32,3 +32,27 @@ export interface SummaryCardData {
     totalProducts: number;
     color: string;
   }
+
+
+  export interface LiveTrackingData {
+    shipmentId: string;
+  
+    status: string;
+  
+    courier: {
+      name: string;
+      role: string;
+    };
+  
+    departure: {
+      city: string;
+      dateTime: string;
+    };
+  
+    destination: {
+      city: string;
+      dateTime: string;
+    };
+  
+    progress: number;
+  }
