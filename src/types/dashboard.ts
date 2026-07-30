@@ -25,4 +25,10 @@ export interface SummaryCardData {
     cost: number;
   }
 
- 
+  export interface ProductCategory {
+    id: string;
+    name: string;
+    percentage: number;
+    totalProducts: number;
+    color: string;
+  }

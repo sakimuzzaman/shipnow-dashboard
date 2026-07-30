@@ -1,4 +1,5 @@
 import type {
+    ProductCategory,
     ProfitData,
     ShipmentStatistic,
     ShipmentTypeData,
@@ -133,5 +134,51 @@ export const summaryCards: SummaryCardData[] = [
       value: 9,
       shipments: 225,
       color: "#E0E0E0",
+    },
+  ];
+
+
+  export const productCategories: ProductCategory[] = [
+    {
+      id: "electronics",
+      name: "Electronics",
+      percentage: 24,
+      totalProducts: 240,
+      color: "#856DF3",
+    },
+    {
+      id: "home-kitchen",
+      name: "Home & Kitchen",
+      percentage: 20,
+      totalProducts: 200,
+      color: "#E3DDFF",
+    },
+    {
+      id: "apparel",
+      name: "Apparel",
+      percentage: 18,
+      totalProducts: 180,
+      color: "#333333",
+    },
+    {
+      id: "beauty-health",
+      name: "Beauty & Health",
+      percentage: 14,
+      totalProducts: 140,
+      color: "#757575",
+    },
+    {
+      id: "sports-outdoors",
+      name: "Sports & Outdoors",
+      percentage: 12,
+      totalProducts: 120,
+      color: "#E0E0E0",
+    },
+    {
+      id: "automotive",
+      name: "Automotive",
+      percentage: 12,
+      totalProducts: 120,
+      color: "#F0F0F0",
     },
   ];

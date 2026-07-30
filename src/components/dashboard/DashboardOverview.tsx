@@ -1,3 +1,4 @@
+import ProductCategories from "./ProductCategories";
 import ProfitSummaryChart from "./ProfitSummaryChart";
 import ShipmentStatisticsChart from "./ShipmentStatisticsChart";
 import ShipmentTypeChart from "./ShipmentTypeChart";
@@ -20,6 +21,18 @@ export default function DashboardOverview() {
 
         <ShipmentTypeChart />
       </div>
+
+       {/* Next dashboard row */}
+       <div className="flex gap-[12px]">
+        <ProductCategories />
+
+        {/* Live Tracking will be added next */}
+        <div className="h-[443px] flex-1 rounded-[12px] bg-[#EDEDEF]" />
+
+        {/* Shipment Alerts will be added after Live Tracking */}
+        <div className="h-[443px] w-[299px] rounded-[12px] bg-[#EDEDEF]" />
+      </div>
+
     </div>
   );
 }
