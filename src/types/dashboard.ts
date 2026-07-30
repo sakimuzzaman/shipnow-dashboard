@@ -56,3 +56,18 @@ export interface SummaryCardData {
   
     progress: number;
   }
+
+  export interface ShipmentAlertSummary {
+    id: string;
+    count: number;
+    label: string;
+    color: string;
+  }
+  
+  export interface ShipmentAlert {
+    id: string;
+    shipmentId: string;
+    issue: string;
+    date: string;
+    icon: "document" | "location" | "message";
+  }

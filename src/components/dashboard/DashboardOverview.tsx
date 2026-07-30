@@ -1,6 +1,7 @@
 import LiveTracking from "./LiveTracking";
 import ProductCategories from "./ProductCategories";
 import ProfitSummaryChart from "./ProfitSummaryChart";
+import ShipmentAlerts from "./ShipmentAlerts";
 import ShipmentStatisticsChart from "./ShipmentStatisticsChart";
 import ShipmentTypeChart from "./ShipmentTypeChart";
 import SummaryCards from "./SummaryCards";
@@ -29,8 +30,7 @@ export default function DashboardOverview() {
 
         <LiveTracking />
 
-        {/* Shipment Alerts will be added after Live Tracking */}
-        <div className="h-[443px] w-[299px] rounded-[12px] bg-[#EDEDEF]" />
+        <ShipmentAlerts />
       </div>
 
     </div>

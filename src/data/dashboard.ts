@@ -5,6 +5,8 @@ import type {
     ShipmentStatistic,
     ShipmentTypeData,
     SummaryCardData,
+    ShipmentAlert,
+    ShipmentAlertSummary,
   } from "@/types/dashboard";
 
 export const summaryCards: SummaryCardData[] = [
@@ -207,3 +209,57 @@ export const summaryCards: SummaryCardData[] = [
   
     progress: 72,
   };
+
+
+
+  export const shipmentAlertSummary = [
+    {
+      id: "customs",
+      count: 5,
+      label: "Customs Clearance Delay",
+      color: "#E3DDFF",
+    },
+    {
+      id: "address",
+      count: 4,
+      label: "Incorrect Address Provided",
+      color: "#E3DDFF",
+    },
+    {
+      id: "weather",
+      count: 3,
+      label: "Weather-Related Hold",
+      color: "#E3DDFF",
+    },
+  ] satisfies ShipmentAlertSummary[];
+  
+  export const shipmentAlerts = [
+    {
+      id: "alert-1",
+      shipmentId: "#SH8734921",
+      issue: "Customs Clearance Delay",
+      date: "Mar 20",
+      icon: "document",
+    },
+    {
+      id: "alert-2",
+      shipmentId: "#SH8738281",
+      issue: "Incorrect Address Provided",
+      date: "Mar 20",
+      icon: "location",
+    },
+    {
+      id: "alert-3",
+      shipmentId: "#SH8739324",
+      issue: "Weather-Related Hold",
+      date: "Mar 19",
+      icon: "message",
+    },
+    {
+      id: "alert-4",
+      shipmentId: "#SH8739564",
+      issue: "Incorrect Address Provided",
+      date: "Mar 18",
+      icon: "document",
+    },
+  ] satisfies ShipmentAlert[];
